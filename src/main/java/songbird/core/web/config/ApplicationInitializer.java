@@ -1,4 +1,4 @@
-package songbird.core.config;
+package songbird.core.web.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
