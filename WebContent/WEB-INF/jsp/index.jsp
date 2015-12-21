@@ -4,7 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>SongBird</title>
+
+<link rel="stylesheet" href="/resources/dist/bootstrap/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="/resources/dist/font-awesome/css/font-awesome.min.css">
+
+<script src="/resources/dist/angular/angular.min.js" type="text/javascript"></script>
+
 </head>
 <body>
     WHatever
