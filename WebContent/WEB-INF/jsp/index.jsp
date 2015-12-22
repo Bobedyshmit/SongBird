@@ -1,20 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="include/taglibs.jsp" %>
 
-<title>SongBird</title>
+<tags:layout>
+    <jsp:body>
+        <audio class="col-xs-12" src="<spring:url value="/resources/songs/pimp.mp3"></spring:url>" controls="controls"></audio>   
+    </jsp:body>
+</tags:layout>
 
-<link rel="stylesheet" href="/resources/dist/bootstrap/css/bootstrap.min.css"> 
-<link rel="stylesheet" href="/resources/dist/font-awesome/css/font-awesome.min.css">
 
-<script src="/resources/dist/angular/angular.min.js" type="text/javascript"></script>
-
-</head>
-<body>
-    WHatever
-</body>
-</html>
