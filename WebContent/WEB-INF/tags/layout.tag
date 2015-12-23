@@ -20,7 +20,18 @@
 
 </head>
 <body>
-    <div class="container">
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href='<spring:url value="/"></spring:url>'>SongBird</a>
+				<ul class="nav navbar-nav">
+				    <li> <a href='<spring:url value="/player"></spring:url>'>Player</a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
         <div class="row">
             <jsp:doBody/>
         </div>
