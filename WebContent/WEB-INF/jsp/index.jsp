@@ -3,7 +3,13 @@
 
 <tags:layout>
     <jsp:body>
-        <audio class="col-xs-12" src="<spring:url value="/resources/songs/pimp.mp3"></spring:url>" controls="controls"></audio>   
+<%--         <audio class="col-xs-12" src="<spring:url value="/resources/songs/pimp.mp3"></spring:url>" controls="controls"></audio>    --%>
+        <div class="col-xs-12">
+            <h1 class="page-header">SongBird</h1>    
+        </div>
+        <div class="col-xs-12">
+            <p> Welcome to SongBird, your favorite online music streaming site!</p>
+        </div>
     </jsp:body>
 </tags:layout>
 
