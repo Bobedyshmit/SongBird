@@ -15,6 +15,7 @@
 <link rel="stylesheet" href='<spring:url value="/resources/custom/css/general.css"></spring:url>'>
 
 <script src="<spring:url value="/resources/dist/angular/angular.min.js"></spring:url>" type="text/javascript" > </script>
+<script src="<spring:url value="/resources/custom/js/app.js"></spring:url>" type="text/javascript"></script>
 
 <jsp:invoke fragment="header"/>
 

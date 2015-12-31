@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/player")
 public class PlayerController {
-    
     @RequestMapping(method = RequestMethod.GET)
     public String home() {
         return "music-player";
