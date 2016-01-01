@@ -24,7 +24,7 @@
 	            <h1 class="page-header">Music Player</h1>    
 	        </div>
 	        <div class="col-xs-9">
-	           <img class="center" src='<spring:url value="/resources/images/logo.jpeg"></spring:url>'>
+	           <img class="center" src='<spring:url value="/resources/images/logo.jpeg"></spring:url>' height = 500px>
 	        </div>
 	        <div class="col-xs-3">
 	            <div class="list-group">
